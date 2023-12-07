@@ -17,7 +17,7 @@ coresPorNome.addEventListener("click", () => {
         
         const backGround = document.querySelector("main")
         backGround.style.backgroundColor = colorsName[numeroAleatorio]
-    
+     
         nomeCor.innerHTML = `#${colorsName[numeroAleatorio]}`
 })
 })
